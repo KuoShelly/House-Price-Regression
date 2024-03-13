@@ -232,7 +232,7 @@ print('RMSE_train_Voting = ' +
 print('RMSE_test_Voting = ' +
       str(math.sqrt(sklm.mean_squared_error(y_test, vote_pred_test))))
 ```
-![image]()
+![image](https://github.com/KuoShelly/House-Price-Regression/blob/main/pic/voting%20result.png?raw=true)
 #### 2. StackingRegressor
 ```python
 # stack
