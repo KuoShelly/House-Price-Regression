@@ -282,7 +282,7 @@ blending_output = pd.DataFrame(blending_results)
 top_10_weights = blending_output.sort_values(by='test_rmse').head(10)
 print(top_10_weights)
 ```
-![image]()
+![image](https://github.com/KuoShelly/House-Price-Regression/blob/main/pic/%E6%AC%8A%E9%87%8D.png?raw=true)
 這樣的三層模型架構旨在提升整體模型的效果和穩定性。使用不同層次的模型進行集成，有助於充分利用各個模型的優勢，提高對房價預測的準確性。最終的預測結果經過 Blending 的加權處理，得到一個更為綜合和強健的模型。
 
 ## 預測結果
