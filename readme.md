@@ -145,6 +145,7 @@ for i in ['BsmtFinType1']:
 finish_data = pd.get_dummies(data, dtype=int)
 ```
 ## 模型預測
+![image](https://github.com/KuoShelly/House-Price-Regression/assets/156055570/daecc82b-05b0-4117-9708-e4c8f78f559c)
 ### 單一模型建模
 **Level-1 模型：Ridge、Lasso、Elastic Net**
 - 在第一層，選擇了三種回歸模型，分別是 Ridge、Lasso 和 Elastic Net。這些模型被用於預測目標變數（房價）。
