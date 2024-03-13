@@ -111,7 +111,7 @@ scaler = StandardScaler()
 data[num_data_col] = scaler.fit_transform(data[num_data_col])
 ```
 - 類別型特徵 
-![類別型特徵]()
+![類別型特徵](https://github.com/KuoShelly/House-Price-Regression/blob/main/pic/%E9%A1%9E%E5%88%A5%E5%9E%8B%20%E6%93%B7%E5%8F%96.png?raw=true)
 #### 1. 刪除集中單一類別的特徵
 ```python
 data.drop(["Street", "Utilities", "LandSlope", "Condition2",
