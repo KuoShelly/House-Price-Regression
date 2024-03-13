@@ -195,6 +195,7 @@ print('RMSE_train_Lasso = ' +
 print('RMSE_test_Lasso = ' +
       str(math.sqrt(sklm.mean_squared_error(y_test, y_lasso_test))))
 ```
+![image](https://github.com/KuoShelly/House-Price-Regression/blob/main/pic/lasso%20result.png?raw=true)
 #### 3. Elastic Net
 ```python
 # ElasticNet
