@@ -1,5 +1,5 @@
 # Home Price Regression
-![](連結 "")
+![](連結 "https://github.com/KuoShelly/House-Price-Regression/blob/main/pic/%E5%B0%81%E9%9D%A2.png?raw=true")
 這段程式碼是針對 Kaggle 的房價預測競賽，使用 Python 實現了一個學習模型。以下是對這個學習架構的簡要描述：
 
 ## 資料理解
