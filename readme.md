@@ -1,5 +1,6 @@
 # Home Price Regression
-![](連結 "https://github.com/KuoShelly/House-Price-Regression/blob/main/pic/%E5%B0%81%E9%9D%A2.png?raw=true")
+![house sale](https://github.com/KuoShelly/House-Price-Regression/blob/main/pic/%E5%B0%81%E9%9D%A2.png?raw=true)
+
 這段程式碼是針對 Kaggle 的房價預測競賽，使用 Python 實現了一個學習模型。以下是對這個學習架構的簡要描述：
 
 ## 資料理解
@@ -46,6 +47,7 @@ low_corr_features = num_corr['SalePrice'][num_corr['SalePrice'] < 0.3].index
 # 刪除相關性小於0.3的特徵
 train_df = train_df.drop(low_corr_features, axis=1)
 ```
+![相關係數圖]()
 ## 極端值處理
 找出train_df裡的數值型特徵中屬於常態分佈的，並刪除其兩個標準差以外的值(留其95%信賴區間)
 ```python
@@ -84,12 +86,12 @@ sns.barplot(x='index', y=0, data=missing_columns)
 ax.set(xlabel='特徵', ylabel='遺漏率', title='特徵遺漏率')
 plt.xticks(rotation=45, ha="right")  # 調整標籤旋轉角度
 ```
-![遺漏率檢察](連結 "pic/遺漏值.png")
+![遺漏率檢察](pic/遺漏值.png)
 
 ## EDA (Exploratory Data Analysis)
 用KDE(kernel density estimation) 來細看個別特徵的詳細分布情形，作為後續特徵工程的參考：
 - 數值型特徵
-![數值型特徵](連結 "")
+![數值型特徵]()
 #### 1. 運用KNN(K Nearest Neighbors))填補缺失值
 ```python
 # 數值型特徵填補缺失值
