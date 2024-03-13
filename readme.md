@@ -91,7 +91,7 @@ plt.xticks(rotation=45, ha="right")  # 調整標籤旋轉角度
 ## EDA (Exploratory Data Analysis)
 用KDE(kernel density estimation) 來細看個別特徵的詳細分布情形，作為後續特徵工程的參考：
 - 數值型特徵
-![數值型特徵]()
+![數值型特徵](pic/數值型 擷取.png)
 #### 1. 運用KNN(K Nearest Neighbors))填補缺失值
 ```python
 # 數值型特徵填補缺失值
@@ -111,7 +111,7 @@ scaler = StandardScaler()
 data[num_data_col] = scaler.fit_transform(data[num_data_col])
 ```
 - 類別型特徵 
-![類別型特徵](連結 "")
+![類別型特徵]()
 #### 1. 刪除集中單一類別的特徵
 ```python
 data.drop(["Street", "Utilities", "LandSlope", "Condition2",
