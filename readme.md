@@ -252,7 +252,7 @@ print('RMSE_train_Stacking = ' +
 print('RMSE_test_Stacking = ' +
       str(math.sqrt(sklm.mean_squared_error(y_test, stacking_pred_test))))
 ```
-![image]()
+![image](https://github.com/KuoShelly/House-Price-Regression/blob/main/pic/stacking%20result.png?raw=true)
 **Level-3 模型：Blending**
 - 在第三層，將前一層的 Voting 和 Stacking 模型進行 Blending。Blending 是一種集成學習的技術，通過線性加權將不同模型的預測結果混合在一起，以獲得最終預測結果。
 ```python
