@@ -47,7 +47,7 @@ low_corr_features = num_corr['SalePrice'][num_corr['SalePrice'] < 0.3].index
 # 刪除相關性小於0.3的特徵
 train_df = train_df.drop(low_corr_features, axis=1)
 ```
-![相關係數圖]()
+![相關係數圖](pic/相關係數高.png)
 ## 極端值處理
 找出train_df裡的數值型特徵中屬於常態分佈的，並刪除其兩個標準差以外的值(留其95%信賴區間)
 ```python
