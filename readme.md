@@ -171,6 +171,8 @@ print('RMSE_train_Ridge = ' +
 print('RMSE_test_Ridge = ' +
       str(math.sqrt(sklm.mean_squared_error(y_test, y_ridge_test))))
 ```
+![image](https://github.com/KuoShelly/House-Price-Regression/assets/156055570/bda99e33-2c35-41fb-9883-27a98ce1fd24)
+
 #### 2. Lasso
 ```python
 # Lasso regression
